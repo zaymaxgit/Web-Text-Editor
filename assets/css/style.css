@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=The+Nautigal:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::-moz-selection {
+  background-color: rgb(127, 168, 255);
+  color: #222;
+}
+
+*::selection {
+  background-color: rgb(127, 168, 255);
+  color: #222;
+}
+
+select {
+  padding: 0.4rem;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+input[type=color] {
+  border: none;
+  width: 30px;
+  background-color: transparent;
+}
+
+body {
+  background-color: rgb(75, 145, 250);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+body .container {
+  background-color: #fff;
+  width: 60vw;
+  min-height: 60px;
+  padding: 1rem 0.6rem;
+}
+body .container .opt_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+body .container .opt_container button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+body .container .opt_container .input_color {
+  display: flex;
+  align-items: center;
+}
+body .container .input_text {
+  padding: 1rem;
+  height: 50vh;
+  border: 1px solid rgb(156, 156, 156);
+  outline: none;
+}
+
+.active {
+  background-color: rgb(161, 203, 252) !important;
+}/*# sourceMappingURL=style.css.map */
